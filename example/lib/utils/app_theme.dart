@@ -56,12 +56,7 @@ class AppTheme {
       //   selectionColor: accentColor?.withOpacity(0.75),
       //   selectionHandleColor: accentColor?.withOpacity(0.75),
       // ),
-      dialogTheme: DialogTheme(
-        elevation: _defaultElevation,
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(15),
-        ),
-      ),
+
       floatingActionButtonTheme: const FloatingActionButtonThemeData(
         elevation: _defaultElevation,
         highlightElevation: _defaultElevation * 2,
